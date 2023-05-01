@@ -24,6 +24,6 @@ socket.on("chat", (data) => {
 
 socket.on("typing", (data) => {
   if (handle.value !== data.handle) {
-    typing.innerHTML = "<p>" + data.handle + " is typing... </p>";
+    typing.innerHTML = "<p>" + data.handle + " is typing.. </p>";
   }
 });
